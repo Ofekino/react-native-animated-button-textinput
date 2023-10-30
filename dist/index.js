@@ -33,7 +33,7 @@ class AnimatedButtonTextInput extends Component {
         }),
         Animated.timing(this.state.scale, {
           duration: this.props.animationDuration,
-          toValue: 0,d
+          toValue: 0,
         }),
       ]).start(() => this.setState({ isCollapsed: true, rightButtonPressed: false }));
     }
