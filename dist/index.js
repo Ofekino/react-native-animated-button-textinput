@@ -33,7 +33,7 @@ var AnimatedButtonTextInput = /** @class */ (function (_super) {
                         toValue: _this.props.collapsedWidth
                     }),
                     Animated.timing(_this.state.scale, {
-                        duration: _this.props.animationDuration,
+                        duration: _this.props.animationDuration,d
                         toValue: 0
                     })
                 ]).start(function () { return _this.setState({ isCollapsed: true }); });
