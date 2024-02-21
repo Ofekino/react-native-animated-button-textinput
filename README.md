@@ -1,6 +1,6 @@
 # react-native-animated-button-textinput
 
-A react-native component for animating button to text-input
+A react-native component for animating button to text-input - fix
 
 <p style="text-align:center;">
 <img src="https://imgur.com/U0RwpJj.gif"/>
